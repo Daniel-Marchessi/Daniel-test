@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <record id="credito_form_view" model="ir.ui.view">
+            <field name="name">Grupo de creditos</field>
+            <field name="model">ng.credito</field>
+            <field name="model">ng.credito</field>
+            <field name="arch" type="xml">
+
+
+                 <form>
+                     <sheet>
+                    <group>
+                    <field name="name"/>
+                    <field name="codigo"/>
+                    </group>
+                    <group>
+                    <field name="canal_id"/>
+                    <field name="credito_global"/>
+                    </group>
+                     </sheet>
+
+                </form>
+            </field>
+
+        </record>
+
+
+
+    </data>
+
+</odoo>
